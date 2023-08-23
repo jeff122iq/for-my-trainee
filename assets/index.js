@@ -1,1 +1,5 @@
-console.log("raphik")
+function handlePrint() {
+  return alert("Hello wrld");
+}
+
+handlePrint();
