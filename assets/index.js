@@ -1,5 +1,5 @@
 function handlePrint() {
-  return alert("Hello wrld");
+  return alert("Hello world");
 }
 
 handlePrint();
