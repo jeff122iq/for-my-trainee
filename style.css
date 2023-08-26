@@ -1,5 +1,6 @@
 body{
     width: 100%;
+    background: grey;
 }
 
 .container{
@@ -19,6 +20,12 @@ body{
 .card {
     width: 100%;
     max-width: 300px;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
 }
 
 h5{
