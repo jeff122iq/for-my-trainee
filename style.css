@@ -19,8 +19,10 @@ body {
 
 .wrapper {
     width: 100%;
+    max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card {
@@ -30,6 +32,19 @@ body {
     flex-direction: column;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.card.main {
+    transform: scale(1.2);
+}
+
+
+.card.small h5 {
+    color: green;
+}
+
+.card.big h5 {
+    color: purple
 }
 
 .card img {
@@ -51,7 +66,7 @@ h1 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color:  grey;
+    color: grey;
     text-align: center;
     padding: 5px;
 }
@@ -68,15 +83,22 @@ h3 {
     max-width: calc(100% / 3);
     height: 70px;
     text-align: center;
-    background-color: orangered;
+    background: orangered;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.footer.first .square{
+    background: purple;
+}
+
+.footer.third .square {
+    background: green;;
+}
+
 .square.border {
     border-right: 2px solid rgba(0, 0, 0, 0.14);
     border-left: 2px solid rgba(0, 0, 0, 0.14);
 }
-
