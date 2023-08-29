@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    background: grey;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 300px;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+}
+
+h5{
+    text-align: center;
+    color: orangered;
+}
+
+h1{
+    text-align: center;
+}
+
+
+h3{
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    padding: 5px;
+}
