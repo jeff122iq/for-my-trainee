@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     background: grey;
@@ -22,6 +28,8 @@ body {
     max-width: 300px;
     background: #ffffff;
     flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .card img {
@@ -29,16 +37,19 @@ body {
 }
 
 h5 {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     color: orangered;
 }
 
 h1 {
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 h3 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color:  grey;
     text-align: center;
@@ -46,18 +57,26 @@ h3 {
 }
 
 .footer {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #f2f2f2;
-    padding: 20px;
 }
 
 .square {
-    width: 90px;
+    width: 100%;
+    max-width: calc(100% / 3);
     height: 70px;
     text-align: center;
     background-color: orangered;
-    display: inline-block;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.square.border {
+    border-right: 2px solid rgba(0, 0, 0, 0.14);
+    border-left: 2px solid rgba(0, 0, 0, 0.14);
 }
 
