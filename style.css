@@ -44,7 +44,7 @@ body {
 }
 
 .card.small.square{
-    background-color: green;
+    background: green;
 }
 
 .card img {
@@ -83,11 +83,19 @@ h3 {
     max-width: calc(100% / 3);
     height: 70px;
     text-align: center;
-    background-color: orangered;
+    background: orangered;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.footer.first .square{
+    background: purple;
+}
+
+.footer.third .square {
+    background: green;;
 }
 
 .square.border {
