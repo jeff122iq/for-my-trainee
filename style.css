@@ -43,8 +43,8 @@ body {
     color: green;
 }
 
-.card.small.square{
-    background: green;
+.card.big h5 {
+    color: purple
 }
 
 .card img {
