@@ -34,6 +34,19 @@ body {
     overflow: hidden;
 }
 
+.card.main {
+    transform: scale(1.2);
+}
+
+
+.card.small h5 {
+    color: green;
+}
+
+.card.small.square{
+    background-color: green;
+}
+
 .card img {
     width: 100%;
 }
@@ -53,7 +66,7 @@ h1 {
 h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color:  grey;
+    color: grey;
     text-align: center;
     padding: 5px;
 }
@@ -81,4 +94,3 @@ h3 {
     border-right: 2px solid rgba(0, 0, 0, 0.14);
     border-left: 2px solid rgba(0, 0, 0, 0.14);
 }
-
