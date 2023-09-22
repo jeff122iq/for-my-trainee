@@ -4,65 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="assets/index.js" defer></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <div class="card big">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVALvxP30ycdpAP8SvKfP9DbOr0BOJzAd1XQ&usqp=CAU"
-                    alt="">
-                <h5>1 week ago</h5>
-                <h1>Post Two</h1>
-                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem aliquid eveniet laboriosam,
-                    rem ad soluta? Fuga iure praesentium exercitationem sapiente labore voluptatum aspernatur.
-                    Voluptates odit, eos totam itaque minus nobis!</h3>
-                <div class="footer first">
-                    <div class="square"></div>
-                    <div class="square border"></div>
-                    <div class="square"></div>
-                </div>
-            </div>
-
-            <div class="card main">
-                <img src="https://www.travelgay.ru/_next/image?url=https%3A%2F%2Fstatic.travelgay.com%2Fmedia%2F58448%2Ftokyo-pb.jpg&w=3840&q=90  alt="">
-            <h5>4 days ago</h5>
-            <h1>Post One</h1>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem aliquid eveniet laboriosam,
-                rem ad soluta? Fuga iure praesentium exercitationem sapiente labore voluptatum aspernatur.
-                Voluptates odit, eos totam itaque minus nobis!</h3>
-            <div class=" footer">
-                <div class="square"></div>
-                <div class="square border"></div>
-                <div class="square"></div>
-            </div>
+<div class="container">
+    <div class="todo-app">
+        <h2>To-Do List</h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add your text">
+            <button id="addButton" class="addButton">Add</button>
         </div>
-
-        <div class="card small">
-            <img src="https://www.travelgay.ru/_next/image?url=https%3A%2F%2Fstatic.travelgay.com%2Fmedia%2F58448%2Ftokyo-pb.jpg&w=3840&q=90  alt="">
-            <h5>3 week ago</h5>
-            <h1>Post Three</h1>
-            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem aliquid eveniet laboriosam,
-                rem ad soluta? Fuga iure praesentium exercitationem sapiente labore voluptatum aspernatur.
-                Voluptates odit, eos totam itaque minus nobis!</h3>
-            <div class=" footer third">
-            <div class="square"></div>
-            <div class="square border"></div>
-            <div class="square"></div>
-        </div>
+        <ul id="list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
     </div>
-    </div>
-
-    </div>
-
-
+</div>
+<script src="/assets/index.js"></script>
 </body>
 
 </html>
